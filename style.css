@@ -45,7 +45,7 @@ header span {
 
 .text-wrapper {
     /* 📍 Cвойство для ограничения ширины блока с текстом в первой секции */
-    max-width: 425px;
+    max-width: 420px;
 }
 
 .main-title {
@@ -130,7 +130,7 @@ select:hover,
 .skills-block {
     /* 📍 Свойства flexbox для расположения формы над элементами с классом .label */
     display: flex;
-    flex-direction: column;
+    flex-direction: column-reverse;
 }
 
 .skills {
@@ -139,7 +139,6 @@ select:hover,
     display: flex;
     flex-direction: column;
     gap: 20px;
-    order: 1;
 }
 
 .books-list {
